@@ -1,7 +1,7 @@
 module jloda_swing {
-	requires transitive jloda_core;
+	requires jloda_core;
 
-	requires transitive java.desktop;
+	requires java.desktop;
 
 	requires VectorGraphics2D;
 
